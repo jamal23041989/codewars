@@ -1,4 +1,4 @@
-"use strict";
+'use strict'
 /**
 Напишите функцию, которая принимает массив чисел и возвращает сумму чисел. Числа могут быть отрицательными или нецелыми. 
 Если массив не содержит чисел, вы должны вернуть 0.
@@ -6,7 +6,7 @@
 Примеры
 Вход: [1, 5.2, 4, 0, -1]
 Выход:9.2
-
+ 
 Вход: []
 Выход:0
 
@@ -23,9 +23,9 @@
  */
 
 function sum(numbers) {
-    "use strict";
-    return numbers ? numbers.reduce((sum, val) => sum + val, 0) : 0;
+  'use strict'
+  return numbers ? numbers.reduce((sum, val) => sum + val, 0) : 0
 }
 
-console.log(sum([])); // 0
-console.log(sum([1, 5.2, 4, 0, -1])); // 9.2
+console.log(sum([])) // 0
+console.log(sum([1, 5.2, 4, 0, -1])) // 9.2
