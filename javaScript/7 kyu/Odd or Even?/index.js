@@ -1,6 +1,5 @@
 // 1
 function oddOrEven(array) {
-  //enter code here
   if (array.length === 0) return 'even'
   return array.reduce((acc, item) => acc + item, 0) % 2 === 0 ? 'even' : 'odd'
 }
