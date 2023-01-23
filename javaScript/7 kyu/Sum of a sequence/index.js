@@ -11,7 +11,7 @@ const sequenceSum = (begin, end, step) => {
 }
 
 // 2
-const sequenceSum = (begin, end, step) => {
+const sequenceSum2 = (begin, end, step) => {
   if (begin > end) return 0
   return begin + sequenceSum(begin + step, end, step)
 }
