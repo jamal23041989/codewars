@@ -1,0 +1,32 @@
+## en
+
+You live in the city of Cartesia where all roads are laid out in a perfect grid.
+You arrived ten minutes too early to an appointment, so you decided to take the opportunity to go for a short walk.
+The city provides its citizens with a Walk Generating App on their phones --
+everytime you press the button it sends you an array of one-letter strings representing directions to walk
+(eg. ['n', 's', 'w', 'e']). 
+You always walk only a single block for each letter (direction)
+and you know it takes you one minute to traverse one city block,
+so create a function that will return true if the walk the app gives you will take you exactly ten minutes 
+(you don't want to be early or late!) and will, of course, return you to your starting point. Return false otherwise.
+
+Note: you will always receive a valid array containing 
+a random assortment of direction letters ('n', 's', 'e', or 'w' only).
+It will never give you an empty array (that's not a walk, that's standing still!).
+
+## ru
+
+Вы живете в городе Картезия, где все дороги выложены идеальной сеткой.
+Вы пришли на встречу на десять минут раньше назначенного срока, поэтому решили воспользоваться возможностью прогуляться.
+Город предоставляет своим гражданам приложение Walk Generator на своих телефонах.
+каждый раз, когда вы нажимаете кнопку, он отправляет вам массив строк из одной буквы, представляющих направления ходьбы.
+(например, ['n', 's', 'w', 'e']).
+Вы всегда проходите только один квартал для каждой буквы (направления)
+и вы знаете, что вам требуется одна минута, чтобы пересечь один городской квартал,
+поэтому создайте функцию, которая вернет true, если прогулка, которую предлагает вам приложение,
+займет у вас ровно десять минут.
+(вы же не хотите опоздать или опоздать!) и, конечно же, вернет вас в исходную точку. В противном случае верните false.
+
+Примечание: вы всегда получите допустимый массив, содержащий
+случайный набор букв направления (только «n», «s», «e» или «w»).
+Он никогда не даст вам пустой массив (это не прогулка, это стояние на месте!).
